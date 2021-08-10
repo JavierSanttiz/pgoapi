@@ -23,7 +23,7 @@ reqs = list()
 try:
     reqs = [str(ir.req) for ir in install_reqs]
 except:
-    reqs = [str(ir.reqs) for ir in install_reqs]
+    reqs = [str(ir.requirement) for ir in install_reqs]
 
 
 
