@@ -19,7 +19,7 @@ install_reqs = parse_requirements(path_req, session=False)
 
 #reqs = [str(ir.req) for ir in install_reqs]
 
-reqs = list(requirements) 
+reqs = list() 
 try:
     reqs = [str(ir.req) for ir in install_reqs]
 except:
